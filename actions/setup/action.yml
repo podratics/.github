@@ -1,0 +1,37 @@
+name: Setup
+description: >-
+  Set up Bun, authenticate it with the npm registry for a given scope, and install dependencies.
+  Checkout must run before this action. Shared across Podratic repos so the setup is defined once.
+inputs:
+  registry-url:
+    description: npm registry host, with no scheme (e.g. pkg.lab.samhuk.com).
+    required: true
+  registry-token:
+    description: npm registry auth token for the scope. Pass a secret; the action never stores it.
+    required: true
+  scope:
+    description: npm scope to authenticate (e.g. podratic).
+    required: true
+runs:
+  using: composite
+  steps:
+    # Resolve the Bun version from the repo's package.json (packageManager / engines), so CI matches
+    # the version pinned for local development.
+    - name: Use Bun
+      uses: oven-sh/setup-bun@v2
+      with:
+        bun-version-file: package.json
+
+    # On engineer machines the scope resolves via the global ~/.npmrc; CI has no such file, so it
+    # appends an [install.scopes] block to bunfig.toml to authenticate against the registry. The
+    # append works whether bunfig.toml is committed or gitignored. CI never commits this change, so a
+    # repo whose bunfig.toml is tracked must exclude it from any working-tree cleanliness check.
+    - name: Authenticate Bun with the npm registry
+      shell: bash
+      run: |
+        echo '[install.scopes]' >> bunfig.toml
+        echo '${{ inputs.scope }} = { token = "${{ inputs.registry-token }}", url = "https://${{ inputs.registry-url }}/" }' >> bunfig.toml
+
+    - name: Install dependencies
+      shell: bash
+      run: bun install
