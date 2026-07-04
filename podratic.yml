@@ -4,3 +4,5 @@ kind: documentation
 summary: Organization-level community health files and shared brand image assets referenced by repository READMEs.
 owner: engineering
 lifecycle: production
+# A meta repository, not a service: keep it out of the catalog listing and navigation.
+hidden: true
