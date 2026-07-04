@@ -1,6 +1,5 @@
-# podratic.yml - repository metadata for the Podratic Hub (see the hub repo's docs/podratic-yml.md).
+# podratic.yml - Podratic repository metadata manifest.
 version: 1
-title: .github
 kind: documentation
 summary: Organization-level community health files and shared brand image assets referenced by repository READMEs.
 owner: engineering
