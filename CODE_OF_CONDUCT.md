@@ -5,14 +5,14 @@ community and how to report unacceptable behavior.
 
 ## Our standards
 
-Our community strives to:
+Follow these standards in every repository and conversation.
 
 - **Be friendly and patient.**
 - **Be welcoming.** We support people of all backgrounds and identities.
 - **Be considerate.** Your work will be used by other people, and you will depend
   on the work of others.
 - **Be respectful.** Disagreement is no excuse for poor behavior.
-- **Be careful in the words you choose.** Be kind.
+- **Be careful in the words you choose.**
 
 When we disagree, try to understand why. Focus on resolving issues and learning
 from mistakes rather than assigning blame.
@@ -20,8 +20,8 @@ from mistakes rather than assigning blame.
 ## Reporting issues
 
 If you experience or witness unacceptable behavior, please report it by emailing
-[sam.hughes@podratic.com](mailto:sam.hughes@podratic.com). All reports will be
-handled with discretion.
+[sam.hughes@podratic.com](mailto:sam.hughes@podratic.com). We handle every
+report with discretion.
 
 In your report, please include:
 
@@ -32,4 +32,4 @@ In your report, please include:
 - Any links to public records (e.g. a chat log) if available.
 - Any additional information that may be helpful.
 
-Anyone asked to stop unacceptable behavior is expected to comply immediately.
+If we ask you to stop unacceptable behavior, stop immediately.

@@ -2,9 +2,8 @@
 
 ## Reporting a vulnerability
 
-If you believe you have found a security vulnerability in any Podratic repository, please
-do not open a public GitHub issue or pull request. Public reports make the problem
-immediately visible to everyone, including malicious actors.
+Do not open a public GitHub issue or pull request for a security vulnerability in a Podratic
+repository. A public report makes the problem visible to everyone, including malicious actors.
 
 Instead, report it privately by emailing [support@podratic.com](mailto:support@podratic.com).
 
