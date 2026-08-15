@@ -13,5 +13,5 @@ Include as much of the following as you can:
 - Steps to reproduce, or a proof-of-concept.
 - The affected repository, version, or commit.
 
-We will acknowledge your report and work with you on a fix and a coordinated disclosure
-timeline. Thank you for helping keep Podratic and its users safe.
+We acknowledge your report, then work with you on a fix and a disclosure timeline. Thank you for
+helping keep Podratic and its users safe.

@@ -31,7 +31,7 @@ Create one with `pgwt`, the worktree CLI that Podratic machine setup installs:
 pgwt new <branch>
 ```
 
-`pgwt new` cuts the branch from the latest default branch, copies your local gitignored `.env*` files into the new
+`pgwt new` creates the branch from the latest default branch, copies your local gitignored `.env*` files into the new
 worktree, and runs the repository's `worktree:setup` script if it defines one. The result is a sibling folder named
 `<repo>-<branch>`.
 
@@ -109,8 +109,8 @@ Remove the worktree once your pull request merges:
 pgwt rm <branch> --force-branch
 ```
 
-Run it from the main checkout. A squash-merge leaves the branch looking unmerged to git, so `--force-branch` is what
-deletes it. Add `--force` if the worktree holds changed or untracked files that you are happy to discard.
+Run it from the main checkout. A squash-merge leaves the branch unmerged as far as git can tell, so `--force-branch`
+deletes it. Add `--force` if the worktree holds changed or untracked files that you can discard.
 
 ## Report a security problem
 
