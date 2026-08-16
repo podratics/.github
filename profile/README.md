@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/podratics/.github/main/assets/podratic-wordmark-dark.png">
-    <img alt="Podratic" src="https://raw.githubusercontent.com/podratics/.github/main/assets/podratic-wordmark-light.png" width="420">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/podratics/.github/master/assets/podratic-wordmark-dark.png">
+    <img alt="Podratic" src="https://raw.githubusercontent.com/podratics/.github/master/assets/podratic-wordmark-light.png" width="420">
   </picture>
 </div>
 
@@ -18,6 +18,6 @@ hold:
 
 ## Contributing
 
-- [Contributing guide](https://github.com/podratics/.github/blob/main/CONTRIBUTING.md)
-- [Code of conduct](https://github.com/podratics/.github/blob/main/CODE_OF_CONDUCT.md)
-- [Security policy](https://github.com/podratics/.github/blob/main/SECURITY.md)
+- [Contributing guide](https://github.com/podratics/.github/blob/master/CONTRIBUTING.md)
+- [Code of conduct](https://github.com/podratics/.github/blob/master/CODE_OF_CONDUCT.md)
+- [Security policy](https://github.com/podratics/.github/blob/master/SECURITY.md)

@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Report a security vulnerability
-    url: https://github.com/podratics/.github/blob/main/SECURITY.md
+    url: https://github.com/podratics/.github/blob/master/SECURITY.md
     about: Do not open a public issue. Follow the security policy to report it privately.
   - name: Read the contributing guide
-    url: https://github.com/podratics/.github/blob/main/CONTRIBUTING.md
+    url: https://github.com/podratics/.github/blob/master/CONTRIBUTING.md
     about: How we track work, name branches, write commits, and open pull requests.
