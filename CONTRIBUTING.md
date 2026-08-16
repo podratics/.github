@@ -4,7 +4,7 @@ This guide applies to every repository in the Podratic organization. A repositor
 overrides it.
 
 It covers how we track work, how to make a change, and how to write a commit and a pull request. Everyone who takes
-part follows the [code of conduct](https://github.com/podratics/.github/blob/main/CODE_OF_CONDUCT.md).
+part follows the [code of conduct](https://github.com/podratics/.github/blob/master/CODE_OF_CONDUCT.md).
 
 ## Track the work
 
@@ -35,7 +35,7 @@ pgwt new <branch>
 worktree, and runs the repository's `worktree:setup` script if it defines one. The result is a sibling folder named
 `<repo>-<branch>`.
 
-The default base is `origin/master`. Pass `--base origin/main` in a repository whose default branch is `main`.
+The base is `origin/master`. Every Podratic repository uses `master` as its default branch.
 
 Without `pgwt`, the plain git equivalent is:
 
@@ -115,4 +115,4 @@ deletes it. Add `--force` if the worktree holds changed or untracked files that 
 ## Report a security problem
 
 Do not open an issue or a pull request for a security vulnerability. Follow the
-[security policy](https://github.com/podratics/.github/blob/main/SECURITY.md) instead.
+[security policy](https://github.com/podratics/.github/blob/master/SECURITY.md) instead.
