@@ -1,7 +1,7 @@
 # Code of Conduct
 
-This code of conduct outlines our expectations for participants in the Podratic
-community and how to report unacceptable behavior.
+This code of conduct describes what we expect of everyone in the Podratic
+community, and how to report unacceptable behavior.
 
 ## Our standards
 
@@ -9,8 +9,8 @@ Follow these standards in every repository and conversation.
 
 - **Be friendly and patient.**
 - **Be welcoming.** We support people of all backgrounds and identities.
-- **Be considerate.** Your work will be used by other people, and you will depend
-  on the work of others.
+- **Be considerate.** Other people use your work, and you depend on the work of
+  others.
 - **Be respectful.** Disagreement is no excuse for poor behavior.
 - **Be careful in the words you choose.**
 
@@ -29,7 +29,7 @@ In your report, please include:
 - Names (real, nicknames, or pseudonyms) of any individuals involved, and any
   witnesses.
 - Your account of what occurred, and whether you believe the incident is ongoing.
-- Any links to public records (e.g. a chat log) if available.
+- Any links to public records, for example a chat log.
 - Any additional information that may be helpful.
 
 If we ask you to stop unacceptable behavior, stop immediately.
